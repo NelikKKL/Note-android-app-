@@ -1,0 +1,3 @@
+-keep class ai.onspace.notes.data.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*

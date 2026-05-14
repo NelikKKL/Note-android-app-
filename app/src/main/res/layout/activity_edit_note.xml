@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorNotebookPaper">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorNotebookPaper"
+        android:elevation="0dp"
+        app:contentInsetStart="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="8dp">
+
+            <ProgressBar
+                android:id="@+id/progressSave"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="8dp"
+                android:visibility="gone" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:paddingHorizontal="12dp"
+                app:backgroundTint="?attr/colorPrimary"
+                app:icon="@drawable/ic_save"
+                app:iconTint="?attr/colorOnPrimary"
+                app:iconSize="22dp"
+                app:cornerRadius="8dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Notebook paper container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Vertical margin line (red/orange line on left) -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="56dp"
+            android:background="?attr/colorNotebookMargin" />
+
+        <!-- Content scrollview -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Title input -->
+                <EditText
+                    android:id="@+id/etTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Заголовок"
+                    android:textColorHint="?attr/colorTertiary"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:background="@null"
+                    android:paddingStart="72dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textCapSentences" />
+
+                <!-- Divider line under title -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:marginStart="16dp"
+                    android:marginEnd="16dp"
+                    android:background="?attr/colorNotebookLine" />
+
+                <!-- Content input (lined paper) -->
+                <EditText
+                    android:id="@+id/etContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="480dp"
+                    android:hint="Начните писать..."
+                    android:textColorHint="?attr/colorTertiary"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="16sp"
+                    android:background="@drawable/bg_lined_paper"
+                    android:paddingStart="72dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="16dp"
+                    android:gravity="top"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:lineSpacingExtra="12dp"
+                    android:scrollbars="none" />
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</LinearLayout>

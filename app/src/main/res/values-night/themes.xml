@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.OnSpaceNotes" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorSecondaryVariant">@color/color_primary_dark</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorError">@color/color_error</item>
+
+        <item name="colorNotebookPaper">@color/color_notebook_paper</item>
+        <item name="colorNotebookLine">@color/color_notebook_line</item>
+        <item name="colorNotebookMargin">@color/color_notebook_margin</item>
+        <item name="colorOnBackground">@color/color_text</item>
+        <item name="colorSecondary">@color/color_text_secondary</item>
+        <item name="colorTertiary">@color/color_text_tertiary</item>
+        <item name="colorBorder">@color/color_border</item>
+
+        <item name="android:statusBarColor">@color/color_background</item>
+        <item name="android:navigationBarColor">@color/color_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

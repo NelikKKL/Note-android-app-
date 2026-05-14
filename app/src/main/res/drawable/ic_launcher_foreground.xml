@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Notebook book icon centered, warm brown color -->
+    <path
+        android:fillColor="#8B6F47"
+        android:pathData="M72,18H36c-4.4,0-8,3.6-8,8v56c0,4.4 3.6,8 8,8h36c4.4,0 8-3.6 8-8V26c0-4.4-3.6-8-8-8zM36,26h20v32l-10-6-10,6V26z"/>
+    <!-- Lines on notebook -->
+    <path
+        android:fillColor="#C19A6B"
+        android:pathData="M60,62h12v2H60zM60,70h12v2H60zM60,78h12v2H60z"/>
+</vector>
