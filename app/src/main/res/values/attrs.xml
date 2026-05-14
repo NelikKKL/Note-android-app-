@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="colorNotebookPaper" format="color" />
+    <attr name="colorNotebookLine" format="color" />
+    <attr name="colorNotebookMargin" format="color" />
+    <attr name="colorBorder" format="color" />
+    <attr name="colorBackground" format="color" />
+    <attr name="colorOnBackground" format="color" />
+
     <declare-styleable name="AppTheme">
-        <attr name="colorNotebookPaper" format="color" />
-        <attr name="colorNotebookLine" format="color" />
-        <attr name="colorNotebookMargin" format="color" />
-        <attr name="colorBorder" format="color" />
+        <attr name="colorNotebookPaper" />
+        <attr name="colorNotebookLine" />
+        <attr name="colorNotebookMargin" />
+        <attr name="colorBorder" />
+        <attr name="colorBackground" />
+        <attr name="colorOnBackground" />
     </declare-styleable>
-
-
 </resources>

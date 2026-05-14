@@ -15,6 +15,7 @@
         <item name="colorNotebookLine">@color/color_notebook_line</item>
         <item name="colorNotebookMargin">@color/color_notebook_margin</item>
         <item name="colorOnBackground">@color/color_text</item>
+        <item name="colorBackground">@color/color_background</item>
         <item name="colorSecondary">@color/color_text_secondary</item>
         <item name="colorTertiary">@color/color_text_tertiary</item>
         <item name="colorBorder">@color/color_border</item>
