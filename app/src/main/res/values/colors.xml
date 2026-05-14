@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OnSpace Notes</string>
+    <string name="app_name">Notes</string>
 
     <!-- Light theme colors matching the original React Native app -->
     <color name="color_background">#F5F1E8</color>

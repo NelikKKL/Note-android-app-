@@ -24,7 +24,7 @@
                 android:id="@+id/tvAppTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Мои заметки"
+                android:text="Notes"
                 android:textSize="32sp"
                 android:textStyle="bold"
                 android:textColor="?attr/colorOnBackground"
