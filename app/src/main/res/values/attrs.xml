@@ -7,9 +7,5 @@
         <attr name="colorBorder" format="color" />
     </declare-styleable>
 
-    <!-- These override Material3 attr names we use -->
-    <attr name="colorNotebookPaper" format="color" />
-    <attr name="colorNotebookLine" format="color" />
-    <attr name="colorNotebookMargin" format="color" />
-    <attr name="colorBorder" format="color" />
+
 </resources>
